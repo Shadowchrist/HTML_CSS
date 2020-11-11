@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        html {
+                background-color: #00b3b3;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            margin: 0;
+            padding: 20px 0;
+            color: #02333a;
+            text-shadow: 2px 2px 3px black;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+        .card {
+            flex: 0 0 300px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        } 
+        .card img {
+            align-items: stretch;
+            align-content: center;
+            max-width: 100%;
+        }
+        .card .text {
+            padding: 0 20px 20px;
+        }
+        .card .text > button {
+            background: rgb(247, 6, 6);
+            border: 0;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Noteworthy bands</h1>
+    <section class="cards">
+        <article class="card">
+            <img src="..\assets\archspire.jpg" alt="Archspire">
+            <div class="text">
+                <h3>Archspire</h3>
+                <p>Archspire is a Canadian technical death metal band from Vancouver, British Columbia. They are currently signed to Season of Mist.
+                   The group has released three studio albums.The band was formed in 2007 as Defenestrated, but changed their name to Archspire in 2009.
+                </p>
+                <button onclick="location.href='https://en.wikipedia.org/wiki/Archspire'">
+                    Read More</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="..\assets\BTBAM.jpg" alt="Between the Buried and Me">
+            <div class="text">
+                <h3>Between the Buried and Me</h3>
+                <p>Between the Buried and Me, often abbreviated as BTBAM, is an American progressive metal band from Raleigh, North Carolina. 
+                   Formed in 2000, the band consists of Tommy Giles Rogers Jr. (lead vocals, keyboards), Paul Waggoner (lead guitar, backing vocals), 
+                   Dustie Waring (rhythm guitar, lead guitar), Dan Briggs (bass, keyboards), and Blake Richardson (drums).
+                </p>
+                <button onclick="location.href='https://en.wikipedia.org/wiki/Between_the_Buried_and_Me'">
+                    Read More</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="..\assets\IA.jpg" alt="Infant Annihilator">
+            <div class="text">
+                <h3>Infant Annihilator</h3>
+                <p>Infant Annihilator are an English deathcore band based in Hull, East Riding of Yorkshire. 
+                   They were formed in 2012 by drummer Aaron Kitcher and guitarist Eddie Pickard. The band are known for their technical, eclectic, parodistic, and brutal musical style; 
+                   satirically graphic lyrical content and shock humour and music videos that feature ribald themes.
+                </p>
+                <button onclick="location.href='https://en.wikipedia.org/wiki/Infant_Annihilator'">
+                    Read More</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="..\assets\meshuggah.jpg" alt="Meshuggah">
+            <div class="text">
+                <h3>Meshuggah</h3>
+                <p>Meshuggah is a Swedish extreme metal band from Umeå, formed in 1987. 
+                   Meshuggah's current lineup consists of founding members lead vocalist Jens Kidman and 
+                   lead guitarist Fredrik Thordendal, drummer Tomas Haake since 1990, rhythm guitarist Mårten Hagström 
+                   since 1993 and bassist Dick Lövgren since 2004. Meshuggah has become known for their innovative musical style, complex, polymetered song structures and polyrhythms, 
+                   thus rose to fame as a significant act in extreme underground music, an influence for modern metal bands and has a cult following. 
+                   The band was labelled as one of the ten most important hard rock and heavy metal bands by Rolling Stone and as the most important band in metal by Alternative Press. 
+                   In the late 2000s, the band was an inspiration for the djent subgenre.
+                </p>
+                <button onclick="location.href='https://en.wikipedia.org/wiki/Meshuggah'">
+                    Read More</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="..\assets\ROS.jpg" alt="Rings of Saturn">
+            <div class="text">
+                <h3>Rings of Saturn</h3>
+                <p>Rings of Saturn is an American deathcore band from the Bay Area, California. The band was formed in 2009 and was originally just a studio project. 
+                   However, after gaining a wide popularity and signing to Unique Leader Records, the band formed a full line-up and became a full-time touring band. 
+                   Rings of Saturn's music features a highly technical style, heavily influenced by themes of alien life and outer space. 
+                </p>
+                <button onclick="location.href='https://en.wikipedia.org/wiki/Rings_of_Saturn_(band)'">
+                    Read More</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="..\assets\TC.jpg" alt="The Contortionist">
+            <div class="text">
+                <h3>The Contortionist</h3>
+                <p>The Contortionist is an American progressive metal band from Indianapolis, Indiana. Formed in 2007, the band consists of 
+                   guitarists Robby Baca and Cameron Maynard, drummer Joey Baca, vocalist Mike Lessard, bassist Jordan Eberhardt, and keyboardist Eric Guenther. 
+                   They have released four studio albums and three EPs. The band signed with E1 and Good Fight Music in early 2010.
+                </p>
+                <button onclick="location.href='https://en.wikipedia.org/wiki/The_Contortionist'">
+                    Read More</button>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

@@ -50,6 +50,12 @@
         margin: 0 auto;
     }
     
+    correct-input{
+        font-size: 12px;
+        font-style: italic;
+        color: rgb(37, 187, 7);
+    }
+    
     error-output{
         font-size: 12px;
         font-style: italic;
